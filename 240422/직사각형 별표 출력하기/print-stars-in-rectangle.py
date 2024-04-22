@@ -6,3 +6,4 @@ m = int(q[1])
 for i in range(n):
     for i in range(m):
         print('*',end=' ')
+    print()
