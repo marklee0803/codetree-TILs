@@ -5,7 +5,7 @@ b = int(arr[1])
 
 for i in range(a, b+1) :
 
-print(a,end=' ')
+  print(a,end=' ')
 
   if a % 2 == 1 :
      a *= 2 
