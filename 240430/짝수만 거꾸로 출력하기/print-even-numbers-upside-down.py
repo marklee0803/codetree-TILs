@@ -1,5 +1,8 @@
 arr = list(map(int, input().split()))   
 
+set(arr)
+print(arr)
+
 even_arr = []
 for elem in arr:
     if elem % 2 == 0:
