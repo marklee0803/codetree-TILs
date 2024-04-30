@@ -4,4 +4,4 @@ even_arr = []
 for elem in arr:
     if elem % 2 == 0:
         even_arr.append(elem)
-print(arr[::-1])
+print(even_arr[::])
