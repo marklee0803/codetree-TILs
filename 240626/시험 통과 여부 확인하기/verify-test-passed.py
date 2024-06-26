@@ -10,4 +10,4 @@ if n >= 80:
     print('pass')
 else:
     m = n - 80
-    print('% more score'%m)
+    print('%d more score'%m)
