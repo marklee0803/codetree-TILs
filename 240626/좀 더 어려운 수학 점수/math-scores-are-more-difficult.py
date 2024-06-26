@@ -11,5 +11,5 @@ elif am > bm:
     print('A')
 elif am == bm and ae > be :
     print('A')
-else: 
+elif am == bm and ae < be: 
     print('B')
