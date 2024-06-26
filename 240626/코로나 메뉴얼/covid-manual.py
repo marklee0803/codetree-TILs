@@ -8,9 +8,17 @@ bt = float(temp2[1])
 cy = temp3[0]
 ct = float(temp3[1])
 
-if (ay == 'Y' and at >= 37) and (by == 'Y' and bt >= 37):
-    print('E')
-if (ay == 'Y' and at >= 37) and (cy == 'Y' and ct >= 37):
-    print('E')
-if (by == 'Y' and bt >= 37) and (cy == 'Y' and ct >= 37):
-    print('E')
+
+if ay == 'Y' and at >= 37:
+    if by == 'Y' and bt >= 37: 
+        print('E')
+    else:
+        if cy == 'Y' and ct >= 37: 
+            print('E')
+        else: 
+            print('N')
+else: 
+    if (by == 'Y' and bt >= 37) and (cy == 'Y' and ct >= 37)
+        print('E')
+    else: 
+        print('N')
