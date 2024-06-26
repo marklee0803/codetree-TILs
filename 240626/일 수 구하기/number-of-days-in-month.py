@@ -1,8 +1,14 @@
 n = int(input())
-if n % 2 == 0 :
-    if n != 2 :
+if n <= 7 :
+    if n % 2 == 0:
+        if n != 0:
+            print('30')
+        else: 
+            print('28')
+    else : 
+        print('31')
+else: 
+    if n % 2 == 1: 
         print('30')
     else: 
-        print('28')
-else: 
-    print('31')
+        print('31')
