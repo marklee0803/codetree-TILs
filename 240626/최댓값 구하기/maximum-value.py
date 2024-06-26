@@ -4,8 +4,8 @@ b = int(temp[1])
 c = int(temp[2])
 
 if a >=b and a >=c :
-    print('a')
+    print(a)
 elif b >= a and b>=c :
-    print('b')
+    print(b)
 else: 
-    print('c')
+    print(c)
