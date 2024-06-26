@@ -1,7 +1,7 @@
 temp1 = input().split()
 temp2 = input().split()
 ae = int(temp1[0])
-am = int(temp[1])
+am = int(temp1[1])
 be = int(temp2[0])
 bm = int(temp2[1])
 
