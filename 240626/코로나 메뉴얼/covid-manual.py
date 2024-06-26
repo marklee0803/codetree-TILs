@@ -18,7 +18,7 @@ if ay == 'Y' and at >= 37:
         else: 
             print('N')
 else: 
-    if (by == 'Y' and bt >= 37) and (cy == 'Y' and ct >= 37)
+    if (by == 'Y' and bt >= 37) and (cy == 'Y' and ct >= 37):
         print('E')
     else: 
         print('N')
