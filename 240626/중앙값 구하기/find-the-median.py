@@ -4,7 +4,7 @@ b = int(temp[1])
 c = int(temp[2])
 
 if a >= b:
-    if b=>c:
+    if b>=c:
         print(b)
     else: 
         print(c)
