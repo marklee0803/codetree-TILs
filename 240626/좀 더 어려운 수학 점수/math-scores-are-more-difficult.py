@@ -9,7 +9,7 @@ if am  < bm :
     print('B')
 elif am > bm:
     print('A')
-elif am == bm , ae > be :
+elif am == bm and ae > be :
     print('A')
 else: 
     print('B')
