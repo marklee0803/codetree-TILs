@@ -6,4 +6,4 @@ while a <= b:
     if a % 2 == 1:
         a *= 2
     else: 
-        a +=
+        a += 3
