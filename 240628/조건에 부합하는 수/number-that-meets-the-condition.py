@@ -8,4 +8,4 @@ for i in range(a, 0, -1):
     k = i % 7
     if k < 4 :
         continue
-    print(i)
+    print(i,end=' ')
