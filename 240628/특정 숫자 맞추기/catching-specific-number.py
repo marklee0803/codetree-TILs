@@ -5,4 +5,5 @@ while True:
     elif n > 25 :
         print('Lower')
     else:
+        print('Good')
         break
