@@ -5,4 +5,4 @@ for i in range(10):
     if n >= 0 and n <= 200:
         sum += i
         cnt += 1
-print(sum, sum/cnt)
+print(f'{sum} {sum/cnt)')
