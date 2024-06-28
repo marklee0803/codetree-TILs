@@ -1,7 +1,7 @@
 while True:
     n = int(input())
     if n % 2 == 1:
-        break
+        continue
     else:
-        m = n//2
+        m = n // 2
         print(m)
