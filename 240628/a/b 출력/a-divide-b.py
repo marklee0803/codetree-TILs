@@ -5,4 +5,4 @@ b = int(변수2[1])
 
 print((a * (10**20) / b )/10**20)
     
-print(a//b)
+print(a/b)
