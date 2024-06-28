@@ -5,4 +5,4 @@ for i in range(n):
     m = int(input())
     sum += m
     cnt += 1
-print(sum, sum/cnt)
+print(f'{sum} {sum/cnt:.1f})
