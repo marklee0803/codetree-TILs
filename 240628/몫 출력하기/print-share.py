@@ -1,4 +1,4 @@
-while True:
+for i in range(3):
     n = int(input())
     if n % 2 == 1:
         continue
