@@ -3,9 +3,10 @@
 a = int(변수2[0])
 b = int(변수2[1])
 
-m = a % b 
-str1 = str(m)
+m = a % b
+
 for i in range(20):
-    n = (a//b)*10 % b
-    str_last = str1 +str(n)
-print(str_last)
+   k = (a//b)*10 % b 
+   k = 10 * k - b*k
+   a = print('k',end='')
+n = str(m)+str(a)
