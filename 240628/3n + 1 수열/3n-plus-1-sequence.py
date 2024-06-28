@@ -7,4 +7,5 @@ while True:
         n = 3*n + 1
     cnt += 1
     if n == 1 :
-        break
+        break 
+print(cnt)
