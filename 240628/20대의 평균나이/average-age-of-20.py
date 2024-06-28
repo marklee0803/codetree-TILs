@@ -6,4 +6,4 @@ while True:
     cnt += 1
     if n >= 30:
         break
-print(f'{sum/cnt:.2f})
+print(f'{sum/cnt:.2f}')
