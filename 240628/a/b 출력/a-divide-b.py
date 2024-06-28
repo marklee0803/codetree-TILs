@@ -3,4 +3,9 @@
 a = int(변수2[0])
 b = int(변수2[1])
 
-print((a * (10**20) / b ))
+m = a % b 
+str = 'm'
+for i in range(20):
+    n = (a//b)*10 % b
+    str = str+'n'
+print(str)
