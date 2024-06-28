@@ -6,3 +6,4 @@ while n < 1000:
     else:
         n = 2 * n + 2 
     cnt += 1
+print(cnt)
