@@ -2,7 +2,7 @@ sum = 0
 cnt = 0
 while True:
     n = int(input())
-    if n >= 30:
+    if n % 10 != 2:
         break
     sum += n
     cnt += 1
