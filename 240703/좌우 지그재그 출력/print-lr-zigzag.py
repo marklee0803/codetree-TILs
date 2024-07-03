@@ -6,5 +6,5 @@ for i in range(n):
         print()
     else:
         for j in range(n):
-            print(2*n*i- j,end=' ')
+            print(n*(i+1)- j,end=' ')
         print()
