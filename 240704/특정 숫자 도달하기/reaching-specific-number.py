@@ -5,5 +5,5 @@ for i in arr :
     sum += i 
     cnt += 1
     if i >= 250:
-        arr.pop(i)
+        arr.pop(index(i))
 print(f'{sum} {sum/cnt:.1f}')
