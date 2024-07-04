@@ -1,2 +1,3 @@
 n = input().split()
-print(n[::-1],end='')
+for i in (n, 0, -1):
+    print(n[i],end='')
