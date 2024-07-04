@@ -1,9 +1,3 @@
-arr = list(map(int, input().split()))
-sum = 0 
-cnt = 0
-for i in arr :
-    sum += i 
-    cnt += 1
-    if i >= 250:
-        arr.pop(index[i])
-print(f'{sum} {sum/cnt:.1f}')
+for i in range(10):
+    n = int(input())
+    print(n)
