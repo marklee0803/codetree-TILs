@@ -10,4 +10,4 @@ for i in range(m):
         else:
             n = 3* n +1
         cnt += 1
-print(cnt)
+    print(cnt)
