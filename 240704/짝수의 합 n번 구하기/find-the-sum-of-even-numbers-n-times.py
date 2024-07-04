@@ -5,7 +5,7 @@ for i in range(n):
     sum = 0
     for j in range(a, b+1, 2):
         if a % 2 == 0:
-            sum += i 
+            sum += j 
         else:
-            sum += i+1
+            sum += j+1
     print(sum)
