@@ -10,3 +10,4 @@ for i in range(n):
             if cnt == 90:
                 cnt = 64
             cnt += 1
+    print()
