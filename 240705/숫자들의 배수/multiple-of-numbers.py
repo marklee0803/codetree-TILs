@@ -5,11 +5,11 @@ i = 1
 while  True:
     
     arr.append(i*n)
-    if cnt == 2 :
-        break
+    
     if i*n % 5 == 0:
         cnt += 1
-    
+    if cnt == 2 :
+        break
     i += 1
     
   
