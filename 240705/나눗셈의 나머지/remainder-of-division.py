@@ -10,6 +10,6 @@ while a >1 :
     a = t 
     for i in range(1, b):
         if k == i:
-        cnt_arr[i] += 1 
+            cnt_arr[i] += 1 
 
 print(sum(i**2) for i in cnt_arr)
