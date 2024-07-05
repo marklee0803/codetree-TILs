@@ -7,11 +7,12 @@ while  True:
     arr.append(i*n)
     if cnt == 2 :
         break
-        
-    i += 1
-    
     if i*n % 5 == 0:
         cnt += 1
+    
+    i += 1
+    
+  
     
 
 
