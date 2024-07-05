@@ -5,4 +5,4 @@ for value in arr:
         break
     else:
         cnt += 1
-print(arr[cnt])
+print(arr[cnt-1])
