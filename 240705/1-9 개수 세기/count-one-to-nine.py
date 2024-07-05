@@ -5,5 +5,5 @@ cnt_arr = [0]*10
 for elem in arr:
     cnt_arr[elem] += 1
 
-for value in cnt_arr:
-    print(value)
+for i in range(1, 10):
+    print(cnt_arr[i])
