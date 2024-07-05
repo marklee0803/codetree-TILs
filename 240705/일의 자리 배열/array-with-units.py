@@ -4,4 +4,4 @@ for i in range(3, 11):
 
 for elem in arr:
     
-        print(elem//10,end=' ')
+        print(elem % 10,end=' ')
