@@ -1,6 +1,6 @@
-arr1 = list(map(input().split()))
-arr2 = list(map( input().split()))
-arr3 = list(map( input().split()))
+arr1 = input().split()
+arr2 = input().split()
+arr3 = input().split()
 cnt_arr = [0, 0 , 0, 0]
 for i in range(1,4):
     for elem in arr+i:
