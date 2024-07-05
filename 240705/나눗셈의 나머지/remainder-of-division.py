@@ -9,7 +9,7 @@ while a >1 :
     k = a % b
     a = t 
     for i in range(1, b):
-        t == i :
+        if k == i
         cnt_arr[i] += 1 
 
 print(sum(i**2) for i in cnt_arr)
