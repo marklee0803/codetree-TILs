@@ -3,6 +3,8 @@ cnt_arr = [0]*10
 for elem in arr:
     if elem == 0:
         break
+    if elem < 10 :
+        continue
     cnt_arr[10-(elem//10)] += 1
 
 for i in range(1, 11):
