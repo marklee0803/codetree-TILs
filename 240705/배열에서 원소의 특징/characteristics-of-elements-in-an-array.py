@@ -1,6 +1,6 @@
 arr = list(map(int, input().split()))
 cnt = 0
-for i in arr:
+for value in arr:
     if value % 3 == 0:
         break
     else:
