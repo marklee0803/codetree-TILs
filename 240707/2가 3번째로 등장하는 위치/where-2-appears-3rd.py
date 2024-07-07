@@ -1,6 +1,7 @@
 n = int(input())
 arr = list(map(int, input().split()))
 cnt = 0
+k = 0
 for elem in arr:
     k += 1
     if elem == 2:
