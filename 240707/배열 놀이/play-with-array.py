@@ -15,3 +15,4 @@ for _ in range(q):
     elif k == 3:
         for elem in arr[int(about_n[1])-1:int(about_n[2])]:
             print(elem,end=' ')
+            print()
