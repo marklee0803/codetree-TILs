@@ -8,7 +8,10 @@ for _ in range(q):
     if k == 1:
         print(about_n[1])
     elif k == 2 :
-        print(arr.index(int(about_n[1]))+1)
+        if int(about_n[1]) in arr:
+            print(arr.index(int(about_n[1]))+1)
+        else:
+            print('0')
     elif k == 3:
         for elem in arr[int(about_n[1])-1:int(about_n[2])]:
             print(elem,end=' ')
