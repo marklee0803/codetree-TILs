@@ -13,11 +13,14 @@ for elem in arr_n1:
                 b = True
             else:
                 b = False
+                break
 
             if b == True:
                 print('Yes')
             else:
                 print('No')
-    break
+
+        break
         
-    else: print('No')
+    else: 
+        print('No')
