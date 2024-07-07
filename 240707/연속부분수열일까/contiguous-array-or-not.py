@@ -12,7 +12,8 @@ for i in range(n2):
         b = True
     else:
         b = False
-if b = True:
+
+if b == True:
     print('Yes')
 else:
     print('No')
