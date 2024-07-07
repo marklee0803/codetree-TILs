@@ -6,7 +6,7 @@ for _ in range(q):
     about_n = input().split()
     k = int(about_n[0])
     if k == 1:
-        print(about_n[1])
+        print(arr[int(about_n[1])-1])
     elif k == 2 :
         if int(about_n[1]) in arr:
             print(arr.index(int(about_n[1]))+1)
