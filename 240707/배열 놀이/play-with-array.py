@@ -6,7 +6,7 @@ a = int(temp2[1])
 temp3 = input().split()
 b = int(temp3[1])
 temp4 = input().split()
-s ,e = int(temp[1]) , int(temp[2])
+s ,e = int(temp4[1]) , int(temp4[2])
 
 print(arr[a-1])
 print(index(b)+1)
