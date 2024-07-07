@@ -6,8 +6,13 @@ for elem in arr_n1:
     if elem == arr_n2[0]:
         a = arr_n1.index(elem)
         break
+b = True
 for i in range(n2):
     if arr_n2[i] == arr_n1[a+i]:
-        print('Yes')
+        b = True
     else:
-        print('No')
+        b = False
+if b = True:
+    print('Yes')
+else:
+    print('No')
