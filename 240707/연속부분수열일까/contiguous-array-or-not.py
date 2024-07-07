@@ -4,10 +4,10 @@ arr_n1 = list(map(int, input().split()))
 arr_n2 = list(map(int, input().split()))
 for elem in arr_n1:
     if elem == arr_n2[0]:
-        a = index(elem)
+        a = arr_n1.index(elem)
         break
 for i in range(n2):
-    if arr_n2[i] == arr_1[a+i]:
+    if arr_n2[i] == arr_n1[a+i]:
         print('Yes')
     else:
         print('No')
