@@ -13,6 +13,6 @@ for i in range(4):
     print(f'{sum/2:.1f}')
 
 sum2 = 0
-for i in range(4):
+for i in range(2):
     sum2 += sum(arr[i])
 print(f'{sum2/8:.1f}')
