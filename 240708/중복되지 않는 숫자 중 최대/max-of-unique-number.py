@@ -5,7 +5,7 @@ max_num = -1
 for curr_num in arr:
     if max_num < curr_num :
         count = 0
-        for elem in nums:
+        for elem in arr:
             if elem == curr_num:
                 count += 1
         
