@@ -9,15 +9,16 @@ print()
 
 
 for i in range(4):
-    sum = 0
+    sum6 = 0
     for j in range(2):
-        sum += arr[j][i]
+        sum6 += arr[j][i]
         
-    print(f'{sum/2:.1f}',end=' ')
+    print(f'{sum6/2:.1f}',end=' ')
 print()
 
-stotal_sum = 0
+sum2 = 0
 for i in range(2):
-    total_sum += sum(arr[i])
+    sum2 += sum(arr[i])
     
-print(f'{total_sum/8:.1f}')
+print(f'{sum2/8:.1f}',end=' ')
+print()
