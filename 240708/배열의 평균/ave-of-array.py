@@ -15,4 +15,4 @@ for i in range(2):
 sum2 = 0
 for i in range(4):
     sum2 += arr[i]
-print(f'{sum2/8:.1f})
+print(f'{sum2/8:.1f}')
