@@ -16,10 +16,8 @@ for i in range(4):
     print(f'{sum/2:.1f}',end=' ')
 print()
 
-sum2 = 0
+stotal_sum = 0
 for i in range(2):
-   
-    sum2 += arr.sum(arr[i])
+    total_sum += sum(arr[i])
     
-print(f'{sum2/8:.1f}',end=' ')
-print()
+print(f'{total_sum/8:.1f}')
