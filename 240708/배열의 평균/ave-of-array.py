@@ -7,8 +7,9 @@ for i in range(2):
     print(f'{sum(arr[i])/4:.1f}',end=' ')
 print()
 
-sum = 0
+
 for i in range(4):
+    sum = 0
     for j in range(2):
         sum += arr[j][i]
         
