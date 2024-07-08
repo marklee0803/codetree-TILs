@@ -8,7 +8,7 @@ for i in range(n-1):
             new_arr.append(a)
 
 
-min_arr = new_arr[0]
+min_arr = new_arr[-1]
 
 for elem in new_arr:
     if elem< min_arr:
