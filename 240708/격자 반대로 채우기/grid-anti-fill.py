@@ -5,7 +5,7 @@ arr = [[0 for i in range(n)] for i in range(n)]
 
 for i in range(n):
     for j in range(n):
-        if i % 2 == 1:
+        if i % 2 == 0:
 
             arr[n-j-1][n-i-1] = cnt
             cnt += 1
