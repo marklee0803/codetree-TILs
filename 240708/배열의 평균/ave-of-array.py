@@ -1,4 +1,4 @@
-arr = [list(map(int,input().split())) for i in range(4)]
+arr = [list(map(int,input().split())) for i in range(2)]
 sum1 = 0
 sum2 = 0 
 sum3 = 0
