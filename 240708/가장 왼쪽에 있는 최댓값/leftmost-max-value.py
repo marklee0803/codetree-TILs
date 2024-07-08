@@ -9,4 +9,4 @@ while k == 1:
         if elem > max_arr :
             max_arr = elem
             k = arr.index(max_arr) + 1 
-            print(arr.index(max_arr),end=' ')
+            print(k,end=' ')
