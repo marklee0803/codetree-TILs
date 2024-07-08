@@ -8,15 +8,15 @@ for elem in arr:
     else:
         min_arr.append(elem)
 
-a = 500
-b = 500
+a = 1000
+b = 1
 
 for elem in max_arr:
-    if elem > a:
+    if elem < a:
         a = elem
 print(a,end=' ')
 
 for elem in min_arr:
-    if elem < b :
+    if elem > b :
         b = elem
 print(b)
