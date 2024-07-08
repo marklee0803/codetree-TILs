@@ -3,9 +3,7 @@ arr = list(map(int, input().split()))
 new_arr = []
 
 while True:
-    if n == 1 :
-        print(arr)
-        break
+    
     for i in range(n-1):
         for j in range(n):
             if i < j:
