@@ -1,2 +1,2 @@
 arr = [list(map(int, input().split())) for _ in range(n)]
-sum(arr)
+print(sum(arr))
