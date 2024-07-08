@@ -5,7 +5,7 @@ found = False
 
 for i in range(n-1):
     if arr[i] != arr[i+1]:
-        print(arr[i])
+        print(arr[i+1])
         found = True
         break
 
