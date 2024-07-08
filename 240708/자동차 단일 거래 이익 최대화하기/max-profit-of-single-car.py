@@ -1,7 +1,7 @@
 n = int(input())
 arr = list(map(int, input().split()))
 new_arr = []
-for i in range(n):
+for i in range(n-1):
     a = arr[i+1] - arr[i]
     new_arr.append(a)
 
