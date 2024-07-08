@@ -18,6 +18,8 @@ print()
 
 sum2 = 0
 for i in range(2):
-    sum2 += sum(arr[i])
+   
+    sum2 += arr.sum(arr[i])
+    
 print(f'{sum2/8:.1f}',end=' ')
 print()
