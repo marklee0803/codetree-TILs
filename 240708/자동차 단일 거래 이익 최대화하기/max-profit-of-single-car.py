@@ -1,7 +1,7 @@
 n = int(input())
 arr = list(map(int, input().split()))
 new_arr = []
-for i in range(n-1):
+for i in range(n):
     for j in range(n):
          if i < j:
 
