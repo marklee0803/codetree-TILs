@@ -3,10 +3,10 @@ arr = list(map(int, input().split()))
 
 
 
-k = n+2
+k = n+1
 while True:
     max_arr = arr[0]
-    for elem in arr[:k-1]:
+    for elem in arr[:k]:
         if elem > max_arr :
              max_arr = elem
     k = arr.index(max_arr) 
