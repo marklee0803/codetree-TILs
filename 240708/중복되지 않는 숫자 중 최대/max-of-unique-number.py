@@ -1,12 +1,13 @@
 n = int(input())
 arr = list(map(int, input().split()))
 arr.sort(reverse=True)
-cnt = True
-for i in range(0, n-1):
+found = False
+
+for i in range(n-1):
     if arr[i] != arr[i+1]:
         print(arr[i])
-        cnt = False
-    else:
-        continue
-if cnt == True:
+        found = True
+        break
+
+if not found:
     print('-1')
