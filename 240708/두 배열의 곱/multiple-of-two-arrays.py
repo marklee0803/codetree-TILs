@@ -10,3 +10,4 @@ for i in range(3):
 for row in arr:
     for elem in row:
         print(elem,end=' ')
+    print()
