@@ -5,7 +5,7 @@ for elem in arr:
     if elem > max_arr:
         max_arr = elem
 
-arr.pop(max_arr)
+arr.pop(arr.index(max_arr))
 
 second_max_arr = arr[0]
 for elem in arr:
