@@ -6,7 +6,7 @@ for i in range(n):
     num = 0
     for j in range(n):
         arr[i][j] = i+1 + num 
-        num += 3 
+        num += n
 
 for row in arr:
     for elem in row:
