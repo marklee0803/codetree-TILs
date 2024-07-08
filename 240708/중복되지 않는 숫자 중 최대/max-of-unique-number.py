@@ -1,13 +1,14 @@
 n = int(input())
 arr = list(map(int, input().split()))
-arr.sort(reverse=True)
-found = False
 
-for i in range(n-1):
-    if arr[i] != arr[i+1]:
-        print(arr[i+1])
-        found = True
-        break
-
-if not found:
-    print('-1')
+max_num = -1
+for curr_num in arr:
+    if max_num < curr_num :
+        count = 0
+        for elem in nums:
+            if elem == curr_num:
+                count += 1
+        
+        if count == 1:
+            max_num = curr_num
+print(max_num)
