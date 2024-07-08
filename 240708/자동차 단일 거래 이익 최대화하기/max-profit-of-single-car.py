@@ -1,6 +1,7 @@
 n = int(input())
 arr = list(map(int, input().split()))
 new_arr = []
+
 while True:
     if n == 1 :
         print(arr)
@@ -14,7 +15,7 @@ while True:
           
 
 
-max_arr = new_arr[0]
+max_arr = 0
 
 
 
