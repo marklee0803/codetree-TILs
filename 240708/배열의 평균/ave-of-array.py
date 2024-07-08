@@ -14,5 +14,5 @@ for i in range(4):
 
 sum2 = 0
 for i in range(4):
-    sum2 += arr[i]
+    sum2 += sum(arr[i])
 print(f'{sum2/8:.1f}')
