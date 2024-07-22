@@ -1,3 +1,6 @@
 a = input()
 b = int(input())
-print(a[-1:-1+b])
+if b < len(a):
+    print(a[-1:-1+b:-1])
+else:
+    print(a[::-1])
