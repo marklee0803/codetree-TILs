@@ -1,2 +1,3 @@
 a = input()
-print(a\na)
+print(a)
+print(a)
